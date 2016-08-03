@@ -1,0 +1,7 @@
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Acme.Biz\bin\Debug\Acme.Biz.dll
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Acme.Biz\bin\Debug\Acme.Biz.pdb
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Acme.Biz\bin\Debug\Acme.Common.dll
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Acme.Biz\bin\Debug\Acme.Common.pdb
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Acme.Biz\obj\Debug\Acme.Biz.csprojResolveAssemblyReference.cache
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Acme.Biz\obj\Debug\Acme.Biz.dll
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Acme.Biz\obj\Debug\Acme.Biz.pdb

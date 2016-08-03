@@ -1,0 +1,7 @@
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\bin\Debug\Acme.CommonTests.dll
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\bin\Debug\Acme.CommonTests.pdb
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\bin\Debug\Acme.Common.dll
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\bin\Debug\Acme.Common.pdb
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\obj\Debug\Acme.CommonTests.dll
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\obj\Debug\Acme.CommonTests.pdb
