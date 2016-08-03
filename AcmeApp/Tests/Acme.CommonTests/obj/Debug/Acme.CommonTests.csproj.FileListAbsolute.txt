@@ -5,3 +5,4 @@ C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests
 C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\bin\Debug\Acme.Common.pdb
 C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\obj\Debug\Acme.CommonTests.dll
 C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\obj\Debug\Acme.CommonTests.pdb
+C:\Users\Ryan Magoon\Source\Repos\CSharpBP-Basics\AcmeApp\Tests\Acme.CommonTests\obj\Debug\Acme.CommonTests.csprojResolveAssemblyReference.cache
