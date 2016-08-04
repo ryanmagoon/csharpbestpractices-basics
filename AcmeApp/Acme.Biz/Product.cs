@@ -32,6 +32,16 @@ namespace Acme.Biz
         #endregion
 
         #region Properties
+
+        private DateTime? availabilityDate;
+
+        public DateTime? AvailabilityDate
+        {
+            get { return availabilityDate; }
+            set { availabilityDate = value; }
+        }
+
+
         private string productName;
 
         public string ProductName
@@ -84,7 +94,11 @@ namespace Acme.Biz
 
             var result = LogAction("saying hello");
 
-            return "Hello " + ProductName + " (" + ProductId + "): " + Description;
+            return "Hello " + ProductName +
+                " (" + ProductId + "): " + 
+                Description +
+                " Available on: " +
+                AvailabilityDate?.ToShortDateString();
         }
     }
 }
