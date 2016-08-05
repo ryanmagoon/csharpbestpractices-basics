@@ -36,7 +36,7 @@ namespace Acme.Biz
         /// <returns></returns>
         public OperationResult PlaceOrder(Product product, int quantity, DateTimeOffset? deliverBy)
         {
-            return PlaceOrder(product, quantity, deliverBy, null)
+            return PlaceOrder(product, quantity, deliverBy, null);
         }
 
         /// <summary>
