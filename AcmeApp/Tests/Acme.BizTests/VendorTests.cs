@@ -64,7 +64,7 @@ namespace Acme.Biz.Tests
             var vendor = new Vendor();
             var product = new Product(1, "Saw", "");
             var expected = new OperationResult(true,
-                "Order from Acme, Inc\r\nProduct: Tools-1\r\nQuantity: 12");
+                "Order from Acme, Inc\r\nProduct: Tools-1\r\nQuantity: 12\r\nInstructions: standard delivery");
 
             //Act
             var actual = vendor.PlaceOrder(product, 12);
@@ -94,7 +94,9 @@ namespace Acme.Biz.Tests
             var vendor = new Vendor();
             var product = new Product(1, "Saw", "");
             var expected = new OperationResult(true,
-                "Order from Acme, Inc\r\nProduct: Tools-1\r\nQuantity: 12" + "\r\nDeliver By: 10/25/2016");
+                "Order from Acme, Inc\r\nProduct: Tools-1\r\nQuantity: 12" +
+                "\r\nDeliver By: 10/25/2016" +
+                "\r\nInstructions: standard delivery");
 
             //Act
             var actual = vendor.PlaceOrder(product, 12,
@@ -117,6 +119,24 @@ namespace Acme.Biz.Tests
             var actual = vendor.PlaceOrder(product, 12,
                                             includeAddress: Vendor.IncludeAddress.Yes,
                                             sendCopy: Vendor.SendCopy.No);
+
+            //Assert
+            Assert.AreEqual(expected.Success, actual.Success);
+            Assert.AreEqual(expected.Message, actual.Message);
+        }
+
+        [TestMethod()]
+        public void PlaceOrder_NoDeliveryDate()
+        {
+            //Arrange
+            var vendor = new Vendor();
+            var product = new Product(1, "Saw", "");
+            var expected = new OperationResult(true,
+                "Order from Acme, Inc\r\nProduct: Tools-1\r\nQuantity: 12" +
+                "\r\nInstructions: Deliver to Suite 42");
+
+            //Act
+            var actual = vendor.PlaceOrder(product, 12, instructions: "Deliver to Suite 42");
 
             //Assert
             Assert.AreEqual(expected.Success, actual.Success);
