@@ -14,13 +14,14 @@ namespace Acme.Biz
     public class Product
     {
         public const double InchesPerMeter = 39.37;
+        public readonly decimal MinimumPrice;
 
         #region Constructors
         public Product()
         {
             Console.WriteLine("Product instance created");
             //this.ProductVendor = new Vendor();
-
+            this.MinimumPrice = .96m;
         }
 
         public Product(int productId, string productName, string description) : this()
@@ -28,6 +29,10 @@ namespace Acme.Biz
             this.ProductId = productId;
             this.ProductName = productName;
             this.Description = description;
+            if (ProductName.StartsWith("Bulk"))
+            {
+                this.MinimumPrice = 9.99m;
+            }
 
             Console.WriteLine("Product instance has a name: " + ProductName);
         }
