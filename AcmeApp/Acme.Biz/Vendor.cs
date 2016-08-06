@@ -103,15 +103,13 @@ namespace Acme.Biz
         {
             string vendorInfo = "Vendor: " + this.CompanyName;
             string result;
-            result = vendorInfo.ToLower();
-            result = vendorInfo.ToUpper();
-            result = vendorInfo.Replace("Vendor", "Supplier");
+            result = vendorInfo?.ToLower();
+            result = vendorInfo?.ToUpper();
+            result = vendorInfo?.Replace("Vendor", "Supplier");
 
-            var length = vendorInfo.Length;
-            var index = vendorInfo.IndexOf(":");
-            var begins = vendorInfo.StartsWith("Vendor");
-
-
+            var length = vendorInfo?.Length;
+            var index = vendorInfo?.IndexOf(":");
+            var begins = vendorInfo?.StartsWith("Vendor");
             return vendorInfo;
         }
     }
